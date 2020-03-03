@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::livewire('/post', 'post');
+Route::livewire('/post', 'post')->middleware('auth');;
 
 Auth::routes();
 

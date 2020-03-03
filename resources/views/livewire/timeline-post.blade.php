@@ -1,4 +1,5 @@
-<div>
-    {{-- The best athlete wants his opponent at his best. --}}
-    Multiple posts
+<div class="d-flex flex-column">
+    @foreach ($posts as $post)
+        @livewire('card', ['post' => $post])
+    @endforeach
 </div>
