@@ -1,0 +1,22 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+::-webkit-input-placeholder {
+    color: #808080;
+    text-align: center;
+}
+
+:-moz-placeholder {
+    color: #808080;
+    text-align: center;
+}
+
+.mini-avatar {
+    height: 22px;
+}
